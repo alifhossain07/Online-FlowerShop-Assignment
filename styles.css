@@ -14,6 +14,7 @@ body{
     border-radius: 10px;
     font-weight: 400;
     background: #E55473;
+    font-size: 16px;
 }
 .limited-width
 {
@@ -39,27 +40,27 @@ span
     background-color: #FCEEF1;
     justify-content: space-around;
     align-items: center;
-    max-height: 380px;
+    max-height: 530px;
     margin: 0%;
     
 }
 .header-info
 {
-    max-width: 550px;
+    max-width: 750px;
     padding: 20px;
 }
 .header-info h1
 {
     color: #272727;
-    font-size: 55px;
+    font-size: 60px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 1000;
     line-height: normal;
 }
 .header-info p
 {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -72,22 +73,26 @@ span
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 700px;
     margin-top: 30px;
-    width: 450px;  
+    width: 500px;  
 }
 /*Bonus section styles*/
 .limited-width p
 {
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 21px;
-    
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 .limited-width h1
 {
     text-align: center;
-    font-size: 40px;
+    font-size: 49px;
 }
 .feature-flower-container
 {
@@ -174,17 +179,18 @@ span
     align-items: center;
     padding: 40px;
     background-color: #FCEEF1;
+    height: 450px;
 }
 .hot-deal-info
 {
     text-align: center;
-    max-width: 550px;
+    max-width: 650px;
 }
 .hot-deal-info h1
 {
     color: #272727;
     font-family: Lato;
-    font-size: 35px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -193,7 +199,7 @@ span
 {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -249,9 +255,10 @@ span
 {
     padding: 18px;
     border: 0;
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 9px;  
+    width: 700px;
+    
+    border-radius: 9px; 
+    box-shadow: 1px 1px 10px rgb(231, 181, 181); 
 }
 /*My Section Styles*/
 .mysection
@@ -286,10 +293,12 @@ span
 {
     padding: 10px;
     width: 260px;
+    margin-top: 10px;
     border:0;
     border-radius: 15px;
     background-color:white;
     color: black;
+    box-shadow: 1px 1px 10px rgb(231, 181, 181);
 }
 .mysection h1
 {
@@ -298,6 +307,12 @@ span
 .mysection p
 {
     font-size: 20px;
+}
+.txt-area
+{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
 }
 /*Footer Styles*/
 .footer-class
