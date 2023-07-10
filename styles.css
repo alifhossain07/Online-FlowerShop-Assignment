@@ -17,7 +17,7 @@ body{
 }
 .limited-width
 {
-    max-width: 1300px;
+    max-width: 1400px;
     margin:auto;
     padding: 20px;
     
@@ -219,7 +219,40 @@ span
 /*Instagram Section Styles*/
 .insta-image-container
 {
+    
+    width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 20px
+    gap: 20px;
+    justify-content: space-between;
+    overflow: hidden; 
 }
+.insta-image-container img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Latest Deals Section*/
+.deal-info
+{
+    border: 1px solid black;
+    padding:20px;
+    height: 400px;
+    background-image: url(Rectangle9.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 30px;
+}
+.email-input
+{
+    padding: 18px;
+    border: 0;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 9px;
+   
+}
+
+
