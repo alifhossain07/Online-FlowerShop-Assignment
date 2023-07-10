@@ -77,10 +77,17 @@ span
     width: 450px;  
 }
 /*Bonus section styles*/
-.limited-width h1,p
+.limited-width p
 {
     text-align: center;
+    font-size: 21px;
+    
 
+}
+.limited-width h1
+{
+    text-align: center;
+    font-size: 40px;
 }
 .feature-flower-container
 {
@@ -208,4 +215,11 @@ span
     transform: translate(-55%, -50%);
     max-width: 100%; 
     max-height: 100%; 
+}
+/*Instagram Section Styles*/
+.insta-image-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px
 }
