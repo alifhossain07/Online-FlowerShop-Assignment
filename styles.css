@@ -235,7 +235,7 @@ span
 /*Latest Deals Section*/
 .deal-info
 {
-    border: 1px solid black;
+   
     padding:20px;
     height: 400px;
     background-image: url(Rectangle9.png) ;
@@ -251,8 +251,83 @@ span
     border: 0;
     width: 400px;
     border: 2px solid black;
-    border-radius: 9px;
-   
+    border-radius: 9px;  
 }
+/*My Section Styles*/
+.mysection
+{   
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+    height: 850px;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*My Section Styles*/
+.form-section
+{
+   
+    text-align: left;
+    width:600px;
+    margin: auto;
+    
+    padding: 20px;
 
+}
+.form
+{
+    width: 270px;
+    margin: auto;
 
+}
+.form-input
+{
+    padding: 10px;
+    width: 260px;
+    border:0;
+    border-radius: 15px;
+    background-color:white;
+    color: black;
+}
+.mysection h1
+{
+    font-size: 40px;
+}
+.mysection p
+{
+    font-size: 20px;
+}
+/*Footer Styles*/
+.footer-class
+{
+    border: 1px solid rgb(255, 255, 255);
+    height: 500px;
+    background-color: #000000;
+    color: white;
+    padding: 60px;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;  
+}
+.footer-class-info
+{
+    width: 580px;
+    margin:auto;
+}
+.footer-class-info h1
+{
+    font-size:45px;
+
+}
+.footer-class-info p
+{
+    font-size:19px;
+    
+}
+.fas
+{
+    color: rgba(255, 255, 255, 0.40);
+}
