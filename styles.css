@@ -15,7 +15,13 @@ body{
     font-weight: 400;
     background: #E55473;
 }
-
+.limited-width
+{
+    max-width: 1300px;
+    margin:auto;
+    padding: 20px;
+    
+}
 /*Header Section Styles*/
 .header-section
 {
@@ -65,3 +71,86 @@ body{
     margin-top: 30px;
     width: 450px;  
 }
+/*Bonus section styles*/
+.limited-width h1,p
+{
+    text-align: center;
+
+}
+.feature-flower-container
+{
+    display: flex;
+    gap: 50px;
+}
+.flower1
+{
+    background-color: #F1DDE7 ;
+    border-radius: 300px 300px 0px 0px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.flower2
+{
+    background-color: #D9EFF0 ;
+    border-radius: 300px 300px 0px 0px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.flower3
+{
+    background-color: #E3EBDB ;
+    border-radius: 300px 300px 0px 0px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.flower1 img
+{
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; 
+    max-height: 100%; /
+}
+.flower2 img
+{
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translate(-55%, -50%);
+    max-width: 100%; 
+    max-height: 100%; 
+}
+.flower3 img
+{
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; 
+    max-height: 100%; 
+}
+.title-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.no-mark
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+
