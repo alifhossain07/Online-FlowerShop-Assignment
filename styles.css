@@ -256,7 +256,7 @@ span
 {
     padding: 18px;
     border: 0;
-    width: 700px;
+    width: 680px;
     
     border-radius: 9px; 
     box-shadow: 1px 1px 10px rgb(231, 181, 181); 
@@ -267,13 +267,13 @@ span
     padding: 30px;
     margin-top: 30px;
     text-align: center;
-    height: 850px;
+    height: 870px;
     background-image: url(bg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*My Section Styles*/
+
 .form-section
 {
    
@@ -318,14 +318,14 @@ span
 /*Footer Styles*/
 .footer-class
 {
-    border: 1px solid rgb(255, 255, 255);
+  
     height: 500px;
     background-color: #000000;
     color: white;
     padding: 60px;
     display: flex;
     text-align: center;
-    margin-top: 50px;
+
     align-items: center;  
 }
 .footer-class-info
