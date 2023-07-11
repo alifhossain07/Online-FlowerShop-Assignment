@@ -175,7 +175,7 @@ span
 {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     align-items: center;
     padding: 40px;
     background-color: #FCEEF1;
@@ -185,6 +185,7 @@ span
 {
     text-align: center;
     max-width: 650px;
+    margin-left: 200px;
 }
 .hot-deal-info h1
 {
@@ -207,8 +208,8 @@ span
 .hot-deal-image
 {
    
-    width: 400px;
-    height: 400px;
+    width: 700px;
+    height: 700px;
     position: relative;
     overflow: hidden;
 }
@@ -216,7 +217,7 @@ span
 {
 
     position: absolute;
-    top: 60%; 
+    top: 50%; 
     left: 50%;
     transform: translate(-55%, -50%);
     max-width: 100%; 
@@ -345,4 +346,8 @@ span
 .fas
 {
     color: rgba(255, 255, 255, 0.40);
+}
+footer
+{
+    margin-top: 0;
 }
